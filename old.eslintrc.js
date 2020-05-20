@@ -1,11 +1,14 @@
-module.exports = {
+/* module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "node": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "airbnb",
+        "airbnb/hooks",
+        "prettier",
+        "prettier"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -19,8 +22,10 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "prettier"
     ],
     "rules": {
+        "prettier/prettier": "error"
     }
-};
+}; */
