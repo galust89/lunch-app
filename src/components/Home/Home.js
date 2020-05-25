@@ -1,12 +1,6 @@
 import React from 'react';
 import { Wrapper } from './index.style';
 
-const obj = {
-  name: 'babken',
-  age: 42,
-  test: 32,
-};
-
 const Home = () => (
   <Wrapper>
     I am home page! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, maiores?
