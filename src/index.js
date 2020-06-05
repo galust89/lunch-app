@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import GlobalProvider from "./state/GlobalProvider";
+import GlobalProvider from './state/GlobalProvider';
 
 ReactDOM.render(
   <GlobalProvider>
     <App />
   </GlobalProvider>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
